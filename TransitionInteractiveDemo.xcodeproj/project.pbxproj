@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33EA22111BEB774C0073CDEB /* INavPushLikePresentAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EA22101BEB774C0073CDEB /* INavPushLikePresentAnimator.m */; };
 		33F841C91B97D113001BCA0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F841C81B97D113001BCA0E /* main.m */; };
 		33F841CC1B97D113001BCA0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F841CB1B97D113001BCA0E /* AppDelegate.m */; };
 		33F841CF1B97D113001BCA0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F841CE1B97D113001BCA0E /* ViewController.m */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		33EA220F1BEB774C0073CDEB /* INavPushLikePresentAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INavPushLikePresentAnimator.h; sourceTree = "<group>"; };
+		33EA22101BEB774C0073CDEB /* INavPushLikePresentAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INavPushLikePresentAnimator.m; sourceTree = "<group>"; };
 		33F841C41B97D113001BCA0E /* TransitionInteractiveDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransitionInteractiveDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33F841C81B97D113001BCA0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		33F841CA1B97D113001BCA0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -73,6 +76,8 @@
 				33F841DF1B97D185001BCA0E /* ILDSNavViewController.m */,
 				33F841E11B97D309001BCA0E /* ILDSNavAnimator.h */,
 				33F841E21B97D309001BCA0E /* ILDSNavAnimator.m */,
+				33EA220F1BEB774C0073CDEB /* INavPushLikePresentAnimator.h */,
+				33EA22101BEB774C0073CDEB /* INavPushLikePresentAnimator.m */,
 				33F841CD1B97D113001BCA0E /* ViewController.h */,
 				33F841CE1B97D113001BCA0E /* ViewController.m */,
 				33F841D01B97D113001BCA0E /* Main.storyboard */,
@@ -168,6 +173,7 @@
 				33F841E01B97D185001BCA0E /* ILDSNavViewController.m in Sources */,
 				33F841E31B97D309001BCA0E /* ILDSNavAnimator.m in Sources */,
 				33F841C91B97D113001BCA0E /* main.m in Sources */,
+				33EA22111BEB774C0073CDEB /* INavPushLikePresentAnimator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +320,7 @@
 				33F841DD1B97D113001BCA0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,11 +8,13 @@
 
 #import "ILDSNavViewController.h"
 #import "ILDSNavAnimator.h"
-
+#import "INavPushLikePresentAnimator.h"
 @interface ILDSNavViewController ()
 
 @property (nonatomic, strong) ILDSNavAnimator *animator;
 @property (nonatomic, strong) UIPercentDrivenInteractiveTransition *interactiveController;
+@property (nonatomic, strong) INavPushLikePresentAnimator *pushAnimator;
+@property (nonatomic, strong) INavPushLikePresentAnimator *popAnimator;
 
 @end
 
@@ -29,7 +31,9 @@
     [self.view addGestureRecognizer:panRecognizer];
     
     self.animator = [ILDSNavAnimator new];
-    
+    self.pushAnimator = [INavPushLikePresentAnimator new];
+    self.pushAnimator.push = YES;
+    self.popAnimator = [INavPushLikePresentAnimator new];
     self.delegate = self;
 }
 
@@ -68,7 +72,9 @@
 - (id<UIViewControllerAnimatedTransitioning>)navigationController:(UINavigationController *)navigationController animationControllerForOperation:(UINavigationControllerOperation)operation fromViewController:(UIViewController *)fromVC toViewController:(UIViewController *)toVC
 {
     if (operation == UINavigationControllerOperationPop) {
-        return self.animator;
+        return self.popAnimator;
+    } else if (operation == UINavigationControllerOperationPush) {
+        return self.pushAnimator;
     }
     return nil;
 }
