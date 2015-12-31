@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WebViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="web" destination="i3Q-Ev-80F" id="2sf-OI-pLL"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i3Q-Ev-80F">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                </webView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zc7-pW-n4H">
+                    <rect key="frame" x="263" y="73" width="74" height="30"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="C6R-H5-rPE"/>
+                        <constraint firstAttribute="width" constant="74" id="qb6-kS-I28"/>
+                    </constraints>
+                    <state key="normal" title="Make js do"/>
+                    <connections>
+                        <action selector="makeJsDo:" destination="-1" eventType="touchUpInside" id="bYw-Ya-ESf"/>
+                    </connections>
+                </button>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="zc7-pW-n4H" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="2bd-hW-dBn"/>
+                <constraint firstAttribute="bottom" secondItem="i3Q-Ev-80F" secondAttribute="bottom" id="FpM-mI-roN"/>
+                <constraint firstItem="zc7-pW-n4H" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="73" id="WJ7-X1-Szz"/>
+                <constraint firstItem="i3Q-Ev-80F" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="i7n-G0-4lL"/>
+                <constraint firstItem="i3Q-Ev-80F" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="iTd-DO-M2B"/>
+                <constraint firstAttribute="trailing" secondItem="i3Q-Ev-80F" secondAttribute="trailing" id="qIv-4J-ObA"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

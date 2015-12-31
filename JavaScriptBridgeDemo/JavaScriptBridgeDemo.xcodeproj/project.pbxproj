@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3398D9E31C34F33C00B819DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3398D9E21C34F33C00B819DE /* main.m */; };
+		3398D9E61C34F33C00B819DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3398D9E51C34F33C00B819DE /* AppDelegate.m */; };
+		3398D9E91C34F33C00B819DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3398D9E81C34F33C00B819DE /* ViewController.m */; };
+		3398D9EC1C34F33C00B819DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3398D9EA1C34F33C00B819DE /* Main.storyboard */; };
+		3398D9EE1C34F33C00B819DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3398D9ED1C34F33C00B819DE /* Assets.xcassets */; };
+		3398D9F11C34F33C00B819DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3398D9EF1C34F33C00B819DE /* LaunchScreen.storyboard */; };
+		3398D9FC1C34F33C00B819DE /* JavaScriptBridgeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3398D9FB1C34F33C00B819DE /* JavaScriptBridgeDemoTests.m */; };
+		3398DA071C34F33D00B819DE /* JavaScriptBridgeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3398DA061C34F33D00B819DE /* JavaScriptBridgeDemoUITests.m */; };
+		3398DA1B1C34F36700B819DE /* WebViewJavascriptBridge.js.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3398DA141C34F36700B819DE /* WebViewJavascriptBridge.js.txt */; };
+		3398DA1C1C34F36700B819DE /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 3398DA161C34F36700B819DE /* WebViewJavascriptBridge.m */; };
+		3398DA1D1C34F36700B819DE /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 3398DA171C34F36700B819DE /* WKWebViewJavascriptBridge.m */; };
+		3398DA1E1C34F36700B819DE /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3398DA191C34F36700B819DE /* WebViewJavascriptBridgeBase.m */; };
+		3398DA201C34F37200B819DE /* ExampleApp.html in Resources */ = {isa = PBXBuildFile; fileRef = 3398DA1F1C34F37200B819DE /* ExampleApp.html */; };
+		3398DA241C34F4E800B819DE /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3398DA221C34F4E800B819DE /* WebViewController.m */; };
+		3398DA251C34F4E800B819DE /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3398DA231C34F4E800B819DE /* WebViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3398D9F81C34F33C00B819DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3398D9D61C34F33C00B819DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3398D9DD1C34F33C00B819DE;
+			remoteInfo = JavaScriptBridgeDemo;
+		};
+		3398DA031C34F33C00B819DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3398D9D61C34F33C00B819DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3398D9DD1C34F33C00B819DE;
+			remoteInfo = JavaScriptBridgeDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3398D9DE1C34F33C00B819DE /* JavaScriptBridgeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JavaScriptBridgeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3398D9E21C34F33C00B819DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3398D9E41C34F33C00B819DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3398D9E51C34F33C00B819DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3398D9E71C34F33C00B819DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3398D9E81C34F33C00B819DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3398D9EB1C34F33C00B819DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3398D9ED1C34F33C00B819DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3398D9F01C34F33C00B819DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3398D9F21C34F33C00B819DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3398D9F71C34F33C00B819DE /* JavaScriptBridgeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JavaScriptBridgeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3398D9FB1C34F33C00B819DE /* JavaScriptBridgeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JavaScriptBridgeDemoTests.m; sourceTree = "<group>"; };
+		3398D9FD1C34F33C00B819DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3398DA021C34F33C00B819DE /* JavaScriptBridgeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JavaScriptBridgeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3398DA061C34F33D00B819DE /* JavaScriptBridgeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JavaScriptBridgeDemoUITests.m; sourceTree = "<group>"; };
+		3398DA081C34F33D00B819DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3398DA141C34F36700B819DE /* WebViewJavascriptBridge.js.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WebViewJavascriptBridge.js.txt; sourceTree = "<group>"; };
+		3398DA151C34F36700B819DE /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		3398DA161C34F36700B819DE /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		3398DA171C34F36700B819DE /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		3398DA181C34F36700B819DE /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		3398DA191C34F36700B819DE /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
+		3398DA1A1C34F36700B819DE /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
+		3398DA1F1C34F37200B819DE /* ExampleApp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ExampleApp.html; sourceTree = "<group>"; };
+		3398DA211C34F4E800B819DE /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		3398DA221C34F4E800B819DE /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		3398DA231C34F4E800B819DE /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3398D9DB1C34F33C00B819DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3398D9F41C34F33C00B819DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3398D9FF1C34F33C00B819DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3398D9D51C34F33C00B819DE = {
+			isa = PBXGroup;
+			children = (
+				3398D9E01C34F33C00B819DE /* JavaScriptBridgeDemo */,
+				3398D9FA1C34F33C00B819DE /* JavaScriptBridgeDemoTests */,
+				3398DA051C34F33D00B819DE /* JavaScriptBridgeDemoUITests */,
+				3398D9DF1C34F33C00B819DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3398D9DF1C34F33C00B819DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3398D9DE1C34F33C00B819DE /* JavaScriptBridgeDemo.app */,
+				3398D9F71C34F33C00B819DE /* JavaScriptBridgeDemoTests.xctest */,
+				3398DA021C34F33C00B819DE /* JavaScriptBridgeDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3398D9E01C34F33C00B819DE /* JavaScriptBridgeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3398DA1F1C34F37200B819DE /* ExampleApp.html */,
+				3398D9E41C34F33C00B819DE /* AppDelegate.h */,
+				3398D9E51C34F33C00B819DE /* AppDelegate.m */,
+				3398D9E71C34F33C00B819DE /* ViewController.h */,
+				3398D9E81C34F33C00B819DE /* ViewController.m */,
+				3398DA211C34F4E800B819DE /* WebViewController.h */,
+				3398DA221C34F4E800B819DE /* WebViewController.m */,
+				3398DA231C34F4E800B819DE /* WebViewController.xib */,
+				3398DA141C34F36700B819DE /* WebViewJavascriptBridge.js.txt */,
+				3398DA151C34F36700B819DE /* WebViewJavascriptBridge.h */,
+				3398DA161C34F36700B819DE /* WebViewJavascriptBridge.m */,
+				3398DA171C34F36700B819DE /* WKWebViewJavascriptBridge.m */,
+				3398DA181C34F36700B819DE /* WKWebViewJavascriptBridge.h */,
+				3398DA191C34F36700B819DE /* WebViewJavascriptBridgeBase.m */,
+				3398DA1A1C34F36700B819DE /* WebViewJavascriptBridgeBase.h */,
+				3398D9EA1C34F33C00B819DE /* Main.storyboard */,
+				3398D9ED1C34F33C00B819DE /* Assets.xcassets */,
+				3398D9EF1C34F33C00B819DE /* LaunchScreen.storyboard */,
+				3398D9F21C34F33C00B819DE /* Info.plist */,
+				3398D9E11C34F33C00B819DE /* Supporting Files */,
+			);
+			path = JavaScriptBridgeDemo;
+			sourceTree = "<group>";
+		};
+		3398D9E11C34F33C00B819DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3398D9E21C34F33C00B819DE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3398D9FA1C34F33C00B819DE /* JavaScriptBridgeDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3398D9FB1C34F33C00B819DE /* JavaScriptBridgeDemoTests.m */,
+				3398D9FD1C34F33C00B819DE /* Info.plist */,
+			);
+			path = JavaScriptBridgeDemoTests;
+			sourceTree = "<group>";
+		};
+		3398DA051C34F33D00B819DE /* JavaScriptBridgeDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3398DA061C34F33D00B819DE /* JavaScriptBridgeDemoUITests.m */,
+				3398DA081C34F33D00B819DE /* Info.plist */,
+			);
+			path = JavaScriptBridgeDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3398D9DD1C34F33C00B819DE /* JavaScriptBridgeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3398DA0B1C34F33D00B819DE /* Build configuration list for PBXNativeTarget "JavaScriptBridgeDemo" */;
+			buildPhases = (
+				3398D9DA1C34F33C00B819DE /* Sources */,
+				3398D9DB1C34F33C00B819DE /* Frameworks */,
+				3398D9DC1C34F33C00B819DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JavaScriptBridgeDemo;
+			productName = JavaScriptBridgeDemo;
+			productReference = 3398D9DE1C34F33C00B819DE /* JavaScriptBridgeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3398D9F61C34F33C00B819DE /* JavaScriptBridgeDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3398DA0E1C34F33D00B819DE /* Build configuration list for PBXNativeTarget "JavaScriptBridgeDemoTests" */;
+			buildPhases = (
+				3398D9F31C34F33C00B819DE /* Sources */,
+				3398D9F41C34F33C00B819DE /* Frameworks */,
+				3398D9F51C34F33C00B819DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3398D9F91C34F33C00B819DE /* PBXTargetDependency */,
+			);
+			name = JavaScriptBridgeDemoTests;
+			productName = JavaScriptBridgeDemoTests;
+			productReference = 3398D9F71C34F33C00B819DE /* JavaScriptBridgeDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3398DA011C34F33C00B819DE /* JavaScriptBridgeDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3398DA111C34F33D00B819DE /* Build configuration list for PBXNativeTarget "JavaScriptBridgeDemoUITests" */;
+			buildPhases = (
+				3398D9FE1C34F33C00B819DE /* Sources */,
+				3398D9FF1C34F33C00B819DE /* Frameworks */,
+				3398DA001C34F33C00B819DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3398DA041C34F33C00B819DE /* PBXTargetDependency */,
+			);
+			name = JavaScriptBridgeDemoUITests;
+			productName = JavaScriptBridgeDemoUITests;
+			productReference = 3398DA021C34F33C00B819DE /* JavaScriptBridgeDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3398D9D61C34F33C00B819DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = kimoworks;
+				TargetAttributes = {
+					3398D9DD1C34F33C00B819DE = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					3398D9F61C34F33C00B819DE = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 3398D9DD1C34F33C00B819DE;
+					};
+					3398DA011C34F33C00B819DE = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 3398D9DD1C34F33C00B819DE;
+					};
+				};
+			};
+			buildConfigurationList = 3398D9D91C34F33C00B819DE /* Build configuration list for PBXProject "JavaScriptBridgeDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3398D9D51C34F33C00B819DE;
+			productRefGroup = 3398D9DF1C34F33C00B819DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3398D9DD1C34F33C00B819DE /* JavaScriptBridgeDemo */,
+				3398D9F61C34F33C00B819DE /* JavaScriptBridgeDemoTests */,
+				3398DA011C34F33C00B819DE /* JavaScriptBridgeDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3398D9DC1C34F33C00B819DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3398DA201C34F37200B819DE /* ExampleApp.html in Resources */,
+				3398DA1B1C34F36700B819DE /* WebViewJavascriptBridge.js.txt in Resources */,
+				3398D9F11C34F33C00B819DE /* LaunchScreen.storyboard in Resources */,
+				3398DA251C34F4E800B819DE /* WebViewController.xib in Resources */,
+				3398D9EE1C34F33C00B819DE /* Assets.xcassets in Resources */,
+				3398D9EC1C34F33C00B819DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3398D9F51C34F33C00B819DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3398DA001C34F33C00B819DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3398D9DA1C34F33C00B819DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3398D9E91C34F33C00B819DE /* ViewController.m in Sources */,
+				3398DA241C34F4E800B819DE /* WebViewController.m in Sources */,
+				3398DA1D1C34F36700B819DE /* WKWebViewJavascriptBridge.m in Sources */,
+				3398DA1C1C34F36700B819DE /* WebViewJavascriptBridge.m in Sources */,
+				3398D9E61C34F33C00B819DE /* AppDelegate.m in Sources */,
+				3398DA1E1C34F36700B819DE /* WebViewJavascriptBridgeBase.m in Sources */,
+				3398D9E31C34F33C00B819DE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3398D9F31C34F33C00B819DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3398D9FC1C34F33C00B819DE /* JavaScriptBridgeDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3398D9FE1C34F33C00B819DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3398DA071C34F33D00B819DE /* JavaScriptBridgeDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3398D9F91C34F33C00B819DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3398D9DD1C34F33C00B819DE /* JavaScriptBridgeDemo */;
+			targetProxy = 3398D9F81C34F33C00B819DE /* PBXContainerItemProxy */;
+		};
+		3398DA041C34F33C00B819DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3398D9DD1C34F33C00B819DE /* JavaScriptBridgeDemo */;
+			targetProxy = 3398DA031C34F33C00B819DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3398D9EA1C34F33C00B819DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3398D9EB1C34F33C00B819DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3398D9EF1C34F33C00B819DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3398D9F01C34F33C00B819DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3398DA091C34F33D00B819DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3398DA0A1C34F33D00B819DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3398DA0C1C34F33D00B819DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JavaScriptBridgeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kimoworks.JavaScriptBridgeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3398DA0D1C34F33D00B819DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JavaScriptBridgeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kimoworks.JavaScriptBridgeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3398DA0F1C34F33D00B819DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JavaScriptBridgeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kimoworks.JavaScriptBridgeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JavaScriptBridgeDemo.app/JavaScriptBridgeDemo";
+			};
+			name = Debug;
+		};
+		3398DA101C34F33D00B819DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JavaScriptBridgeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kimoworks.JavaScriptBridgeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JavaScriptBridgeDemo.app/JavaScriptBridgeDemo";
+			};
+			name = Release;
+		};
+		3398DA121C34F33D00B819DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JavaScriptBridgeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kimoworks.JavaScriptBridgeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JavaScriptBridgeDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3398DA131C34F33D00B819DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JavaScriptBridgeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kimoworks.JavaScriptBridgeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JavaScriptBridgeDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3398D9D91C34F33C00B819DE /* Build configuration list for PBXProject "JavaScriptBridgeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3398DA091C34F33D00B819DE /* Debug */,
+				3398DA0A1C34F33D00B819DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3398DA0B1C34F33D00B819DE /* Build configuration list for PBXNativeTarget "JavaScriptBridgeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3398DA0C1C34F33D00B819DE /* Debug */,
+				3398DA0D1C34F33D00B819DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3398DA0E1C34F33D00B819DE /* Build configuration list for PBXNativeTarget "JavaScriptBridgeDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3398DA0F1C34F33D00B819DE /* Debug */,
+				3398DA101C34F33D00B819DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3398DA111C34F33D00B819DE /* Build configuration list for PBXNativeTarget "JavaScriptBridgeDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3398DA121C34F33D00B819DE /* Debug */,
+				3398DA131C34F33D00B819DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3398D9D61C34F33C00B819DE /* Project object */;
+}

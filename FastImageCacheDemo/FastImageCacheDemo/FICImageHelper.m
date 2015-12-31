@@ -2,7 +2,7 @@
 //  FICImageHelper.m
 //  PlayZer
 //
-//  Created by mojun on 15/11/7.
+//  Created by shitman on 15/11/7.
 //  Copyright © 2015年 kimoworks. All rights reserved.
 //
 
